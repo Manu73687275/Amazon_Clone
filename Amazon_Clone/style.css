@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    height:4.3rem;
+    width:100%;
+  background-color: #0f1111;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    margin: 1px;
+    padding: 1px 8px 0px 6px;
+    background-size: cover;
+    align-items: center;
+}
+.lo:hover{
+    border: 2px solid white;
+    
+}
+.lo{
+     height: 3rem;
+    width: 5rem;    
+}
+.loc{
+    height: 5px;
+    width: 3px;
+    color: white;
+}
+
+.content{
+    padding-top: 3px;
+    padding-left: 9px;
+    padding-right: 9px;
+    display: flex;
+}
+.sec2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+#p1{
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+#p2{
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+.loction{
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+}
+.sec2:hover{
+    border: 2px solid white;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+}
+.select{
+    color: #0f1111;
+    font-size: 14px;   
+}
+#id_option{
+    border: none;
+   
+}
+.all{
+    padding: 3px;
+    height: 2.5rem;
+    background-color: #ffffff;   
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+.search input{
+    height: 2.5rem;
+    width: 35rem;
+    padding: 7px 10px 10px 0;
+}
+.search_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    height: 2.5rem;
+    padding:0px 10px 0px 10px;
+    color: #0f1111;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;   
+}
+
+.con{
+    padding-top: 5px;
+    padding-left: 3px;
+    height: 2.5rem;
+    width: 6.5rem;
+   
+}
+#hel{
+    font-size: 12px;
+    color: #ffffff;
+}
+#acc{
+  font-size: 14px;
+  font-weight: 100;  
+}
+.con:hover{
+    border: 2px solid white;
+}
+.size{
+    padding-top: 5px;
+    padding-left: 3px;
+    height: 2.5rem;
+    width: 4rem;
+   
+}
+.cart{
+    display: flex;
+}
+.sec6{
+    padding: 8px;
+}
+.sec6:hover{
+    border: 2px solid white;
+}
+.nav2{
+    height: 3rem;
+    width:100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.op{
+    display: flex;
+    color: #ffffff;
+}
+.second_sec2  {
+    display: flex;
+}
+.second_options{
+    display:flex;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 12px;
+    width: 65rem;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.op:hover{
+    border: 2px solid white;
+    padding: 10px;
+}
+.ali:hover{
+    border: 2px solid white;
+    padding: 10px;
+}
+.image img{
+    height: 30rem;
+    width:100%;
+    background-size:cover;
+
+}
+main{
+    height: 70rem;
+    
+}
+.boxes{
+    background-color:#d7dde2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: -6rem;
+}
+.collections{
+    height: 22rem;
+    width: 24%;
+    padding: 20px 0px 0px 0px;
+    background-color:#ffffff;
+    margin-top: 1rem;
+}
+.pic{
+    height: 14rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   margin-left: 0.7rem;
+   margin-right: 0.7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#see{
+    color: #007185;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    cursor: pointer;
+}
+footer{
+    height: 30rem;
+}
+.back{
+    height: 3rem;
+    width: 100%;
+    background-color: #303d4b;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full{
+    height: 30rem;
+    width: 100%;
+    background-color: #222f3d;
+}
+.endsec{
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.words{
+    margin-top: 2rem;
+}
+.l p{
+    color: #DDDDDD;
+    margin-bottom: 0.3rem;
+}
+.l p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cnts h3{
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+.line{
+   height: 1px;
+   width: 100%;
+   margin-top: 3rem;
+   background-color:#3a4551;
+}
+
+.loc{
+    background-image: url('logo.png');
+    height: 4rem;
+    width: 8rem;
+    margin:auto;
+   background-size: cover;
+   margin-top: 1rem;
+}
+.location_name{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+   
+}
+.location_name p{
+    margin-left: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+.location_name p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
